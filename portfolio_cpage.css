@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.70;
+}
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(26, 54, 69, 0.5);
+    width: 100.45vw;
+    height: 101.05vh;
+}
+.overlay{
+    background-image: linear-gradient(to right, rgba(34,35,46,0.75), 
+    rgba(0,194,203,0.5));
+}
+.wrapper{
+    position: fixed;
+}

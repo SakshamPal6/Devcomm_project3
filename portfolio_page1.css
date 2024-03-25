@@ -1,0 +1,167 @@
+.header{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+}
+.rightbox{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding-left: 700px;
+    padding-top: 10px;
+   
+}
+.hover-underline-animation{
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.about{
+    padding-left: 50px;
+}
+.skills{
+    padding-left: 50px;
+}
+.contact{
+    padding-left: 50px;
+}
+#logo{
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px;
+    justify-content: flex-end;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 180px;
+}
+.line3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.line1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line2{
+    text-align: center;
+    color: white;
+    opacity: 1;
+    font-size: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+.icon:hover{
+    color: black;
+}
+.facebook{
+    background-color: rgba(116, 135, 146, 0.599);
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-bottom: 5px;
+}
+.facebook:hover{
+    opacity: 1;
+}
+.insta{
+    background-color: rgba(116, 135, 146, 0.599);
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-bottom: 5px;
+}
+.insta:hover{
+    opacity: 1;
+}
+.youtube{
+    background-color: rgba(116, 135, 146, 0.599);
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-bottom: 5px;
+}
+.youtube:hover{
+    opacity: 1;
+}
+.snap{
+    background-color: rgba(116, 135, 146, 0.599);
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-bottom: 5px;
+}
+.snap:hover{
+    opacity: 1;
+}
+.linkedin{
+    background-color: rgba(116, 135, 146, 0.599);
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.linkedin:hover{
+    opacity: 1;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: white;
+  
+}
+.scroll{
+    padding-top: 100px;
+    padding-bottom: 53px;
+    text-align: center;
+}
+.scrol{
+    padding-left: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
